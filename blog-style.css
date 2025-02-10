@@ -1,0 +1,99 @@
+@media(max-width:599px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1% 500px 1fr 30% 200px;
+        grid-template-areas: 
+        "hd"
+        "sc"
+        "main"
+        "sd"
+        "ft";
+    }
+    img {
+        width: 55%;
+    }
+    header {
+        padding: 5px 10px;
+    }
+}
+
+@media(min-width:600px) and (max-width:800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 550px 1fr 35% 200px;
+        grid-template-areas: 
+        "hd"
+        "sc"
+        "main"
+        "sd"
+        "ft";
+    }
+    img {
+        width: 40%;
+    }
+    header {
+        padding: 10px 20px;
+    }
+}
+
+@media(min-width:801px) and (max-width:1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 70px 620px 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "sc sc sc sc sc sc sc sc"
+        "main sd sd sd sd sd sd sd"
+        "ft ft ft ft ft ft ft ft";
+    }
+    img {
+        width: 35%;
+    }
+    header {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
+
+@media(min-width:1201px) and (max-width:1500px) {
+    .container{
+        display: grid;
+        grid-template-columns: 450px 350px;
+        grid-template-rows: 70px 35% 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "sc sc sc sc sc sc sc sc"
+        "main main main main sd sd sd sd"
+        "ft ft ft ft ft ft ft ft";
+    }
+    img{
+        width: 20%;
+    } 
+    header{
+        padding: 10px 20px;
+
+    }
+}
+
+@media(min-width:1501px) {
+    .container{
+        display: grid;
+        grid-template-columns: 450px 350px;
+        grid-template-rows: 70px 42% 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "sc sc sc sc sc sc sc sc"
+        "main main main main sd sd sd sd"
+        "ft ft ft ft ft ft ft ft";
+    }
+    img{
+        width: 20%;
+    } 
+    header{
+        padding: 10px 20px;
+
+    }
+}

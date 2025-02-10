@@ -1,0 +1,18 @@
+@media(min-width:1201px) {
+    .container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 3% 1fr 200px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "ar ar ar ar ar ar ar ar"
+        "ft ft ft ft ft ft ft ft"
+        ;
+    }
+    img {
+        width: 20%;
+    }
+    header {
+        padding: 10px 20px;
+    }
+}
